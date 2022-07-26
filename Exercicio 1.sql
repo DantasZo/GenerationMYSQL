@@ -40,6 +40,7 @@ select * from tb_personagens where poder<2000 and poder>1000;
 select * from tb_classes where nome like "%c%";
 
 select * from tb_personagens inner join tb_classes on main_id=tb_classes.id;
-
+select * from tb_personagens inner join tb_classes on main_id=tb_classes.id
+where classe like "%arqueiro%";
 
 
